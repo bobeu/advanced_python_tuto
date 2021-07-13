@@ -31,3 +31,16 @@ def printText(x):
 getOddNumbers(20)
 getEvenNumbers(20)
 printText(20)
+
+def sqrOf(x):
+    return x**2
+
+y = [sqrOf(x) for x in range(10)]
+print("y: ", y)
+
+text = "aero, egg, iota, odd, all"
+s = {each for each in text if each in "aeiou"}
+print(s)
+
+d = {i: i**2 for i in range(10)}
+print(d)
