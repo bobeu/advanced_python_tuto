@@ -39,4 +39,3 @@ print(os.getcwd()) # gets the current working directory
 print(os.listdir())
 # print(os.mkdir("tada"))
 # print(os.rmdir("tada"))
-print(dir(os))
